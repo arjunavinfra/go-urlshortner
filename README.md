@@ -8,19 +8,23 @@ Pre request :
  3. Use the url.sql for doing the same
  4. update the username and passworon main.go [db, err := sql.Open("mysql", "root:password@tcp(localhost:3306)/indexer")]
  
- How to run the project 
+ **How to run the project**  
  1. Install the dependencies
  
  ```ruby
- go get -u github.com/gorilla/mux```
+ go get -u github.com/gorilla/mux
+ ```
  
  
  ```ruby
- go get -u github.com/go-sql-driver/mysql```
+ go get -u github.com/go-sql-driver/mysql
+ ```
  
 
  ```ruby
- go run main.go```
+ go run main.go
+ ```
+ 
  
  pass the json data to localhost:9908/shrink for shrinking the url 
  
