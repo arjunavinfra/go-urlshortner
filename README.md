@@ -11,12 +11,21 @@ Pre request :
  How to run the project 
  1. Install the dependencies
  
- go get -u github.com/gorilla/mux
+ ```go get -u github.com/gorilla/mux
+ 
+ 
+ ```go get -u github.com/go-sql-driver/mysql
  
 
- go run main.go
+ ```go run main.go
+ 
+ pass the json data to localhost:9908/shrink for shrinking the url 
+ 
 
 ![image](https://user-images.githubusercontent.com/118735091/233076295-0ac70578-aae7-4dca-b088-0db4c4000e66.png)
+
+
+ pass the json data to localhost:9908/resolve for resolving the url 
 
 
 
