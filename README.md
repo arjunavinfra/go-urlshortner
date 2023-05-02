@@ -11,7 +11,8 @@ Pre request :
  How to run the project 
  1. Install the dependencies
  
- ```go get -u github.com/gorilla/mux```
+ ```go get -u github.com/gorilla/mux
+ 
 
  ```go run main.go```
 
